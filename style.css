@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://i.natgeofe.com/n/49f1c59b-095d-47a6-b72c-92bc6740a37c/tpc18-outdoor-gallery-1693450-12040196_03_square.jpg)
+    no-repeat;
+  background-size: cover;
+}
+.clock {
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgb(200, 86, 29),
+    0px 10px 20px rgba(236, 95, 39, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+}
+.clock h1 {
+  font-size: 4rem;
+}
+.clock span {
+  position: relative;
+  top: -13%;
+  margin-left: 5px;
+  font-size: 20px;
+}
